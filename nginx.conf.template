@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name YOUR_DOMAIN *YOUR_DOMAIN;
+    server_name YOUR_DOMAIN *.YOUR_DOMAIN;
 
     location / {
         proxy_pass https://login.microsoftonline.com;
